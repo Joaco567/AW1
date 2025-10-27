@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+</head>
+<body data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg bg-body-secondary">
+        <div class="container-fluid">
+            <a href="./home.html" class="navbar-brand">
+                <img src="https://http2.mlstatic.com/storage/mshops-appearance-api/images/54/147826454/logo-2021060717121340300.png" 
+                 alt="Logo" 
+                 height="90"></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item my-1 mx-lg-1">
+                        <a href="#" class="nav-link active" aria-current="page">Home</a>
+                    </li>
+
+                    <li class="nav-item my-1 mx-lg-1">
+                        <a href="./mangas.html" class="nav-link">Mangas</a>
+                    </li>
+
+                    <li class="nav-item my-1 mx-lg-1">
+                        <a href="./merch.html" class="nav-link">Merchandising</a>
+                    </li>
+
+                    <li class="nav-item my-1 mx-lg-1">
+                        <a href="./menu.html" class="nav-link">Comida y Bebida</a>
+                    </li>
+                </ul>
+
+                    <a href="#" class="btn btn-outline-info ms-auto my-3 me-3" data-bs-toggle="offcanvas" data-bs-target="#carritoOffcanvas">
+                        <i class="bi bi-basket"></i> Carrito
+                    </a>
+
+                    <a href="./index.html" class="btn btn-outline-danger my-3">
+                        <i class="bi bi-box-arrow-left"></i> Deslogearse
+                    </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="card card-notis mt-5">
+                    <div class="card-header text-center">
+                        <i class="bi bi-bell-fill me-2"></i>Notificaciones 
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill text-bg-secondary">+3 <span class="visually-hidden">unread messages</span></span></div>
+
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush list-group-item-warning rounded-3">
+                            <li class="list-group-item text-white">
+                                <small class="text-secondary d-block mb-3">
+                                    <i class="bi bi-calendar3 mx-1"></i> Octubre 13 - 2025
+                                </small>
+                                <i class="bi bi-tag-fill text-warning mx-1"></i>
+                                ¡50% OFF en todo Re:Zero hasta fin de mes!
+                            </li>
+                            <li class="list-group-item text-white">
+                                <small class="text-secondary d-block mb-3">
+                                    <i class="bi bi-calendar3 mx-1"></i> Octubre 17 - 2025
+                                </small>
+                                <i class="bi bi-gift-fill text-success mx-1"></i>
+                                Descuento especial: 20% en tu primera compra
+                            </li>
+                            <li class="list-group-item text-white">
+                                <small class="text-secondary d-block mb-3">
+                                    <i class="bi bi-calendar3 mx-1"></i> Octubre 20 - 2025
+                                </small>
+                                <i class="bi bi bi-credit-card-fill text-info mx-1"></i>
+                                Nuevo método de pago disponible: Mercado Pago
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <div class="card mt-5">
+                    <div class="card-header text-center">
+                        <i class="bi bi-box-seam-fill me-2"></i>Nuevos Ingresos <span class="position-absolute top-0 start-100 translate-middle badge border border-light rounded-circle bg-danger p-2"><span class="visually-hidden">unread messages</span></span></div>
+
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush list-group-item-primary rounded-3">
+                            <li class="list-group-item text-white">
+                                <small class="text-secondary d-block mb-3">
+                                    <i class="bi bi-calendar3 mx-1"></i> Octubre 15 - 2025
+                                </small>
+                                <i class="bi bi-book-fill text-primary me-2"></i>
+                                Recién llegado: Dr. Stone Vol. 1
+                            </li>
+                            <li class="list-group-item text-white">
+                                <small class="text-secondary d-block mb-3">
+                                    <i class="bi bi-calendar3 mx-1"></i> Octubre 17 - 2025
+                                </small>
+                                <i class="bi bi-book-fill text-primary me-2"></i>
+                                Ya disponible: Jojo's Bizarre Adventure P.1 Vol. 1
+                            </li>
+                            <li class="list-group-item text-white">
+                                <small class="text-secondary d-block mb-3">
+                                    <i class="bi bi-calendar3 mx-1"></i> Octubre 19 - 2025
+                                </small>
+                                <i class="bi bi-book-fill text-primary me-2"></i>
+                                Estreno: Neon Genesis Evangelion Vol. 1
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 row-cols-xxl-6 g-4 my-5 mx-2 justify-content-center">
+
+            <div class="col">
+                <div class="card card-home">
+                    <img src="https://th.bing.com/th/id/R.7f6e6073a754a8571d22b57dcf2d00a3?rik=%2bYRo4W5pb4x3%2fQ&pid=ImgRaw&r=0" class="img-thumbnail" alt="item">
+                    <div class="card-body">
+                        <h5 class="card-title text-center fw-bold">Artículos de Mangas</h5>
+                        <p class="card-text lh-base text-center">Descubrí historias épicas y aventuras inolvidables. Desde clásicos hasta los últimos estrenos.</p>
+                    </div>
+
+                    <div class="card-footer">
+                        <div class="text-center my-2">
+                            <a href="./mangas.html" class="btn btn-outline-warning my-3">
+                                <i class="bi bi-bag-heart-fill mx-2"></i> Ir a comprar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card card-home">
+                    <img src="https://images.nintendolife.com/c91e6b8af98a0/fangamer.900x.jpg" class="img-thumbnail" alt="item">
+                    <div class="card-body">
+                        <h5 class="card-title text-center fw-bold">Artículos de Merchandising</h5>
+                        <p class="card-text lh-base text-center">Figuras, peluches, tazas y más. Todo lo que necesitás para mostrar tu pasión por tus series favoritas.</p>
+                    </div>
+
+                    <div class="card-footer">
+                        <div class="text-center my-2">
+                            <a href="./merch.html" class="btn btn-outline-warning my-3">
+                                <i class="bi bi-bag-heart-fill mx-2"></i> Ir a comprar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card card-home">
+                    <img src="https://img.freepik.com/premium-vector/japanese-cuisine-menu-cover-design-japan-food_8071-35831.jpg?w=2000" class="img-thumbnail" alt="item">
+                    <div class="card-body">
+                        <h5 class="card-title text-center fw-bold">Artículos de Comidas y Bebidas</h5>
+                        <p class="card-text lh-base text-center">Sabores directos de Japón y Corea. Snacks, ramen, bebidas y dulces que no encontrás en otros lados.</p>
+                    </div>
+
+                    <div class="card-footer">
+                        <div class="text-center my-2">
+                            <a href="./menu.html" class="btn btn-outline-warning my-3">
+                                <i class="bi bi-bag-heart-fill mx-2"></i> Ir a comprar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footer-home">
+        <p class="text-footer">
+            © 2025 Kaburi Store - Proyecto Académico
+        </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <!-- Código del carrito -->
+
+    <div class="modal fade" id="carritoModal" tabindex="-1" aria-labelledby="carritoModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="carritoModalLabel">
+                        <i class="bi bi-cart-check-fill text-success"></i> Producto/s agregados al carrito
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ul id="listaCarrito" class="list-unstyled"></ul>
+                    <hr>
+                    <p class="fw-bold">Total: $<span id="totalCarrito">0</span></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Seguir comprando</button>
+                    <!-- <button type="button" class="btn btn-success">Ir al carrito</button> -->
+                    <a href="#" id="btnIrCarrito" class="btn btn-success">
+                        <i class="bi bi-basket"></i> Ir al carrito
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script>
+    let carrito = [];
+
+    function agregarAlCarrito(producto, inputId, precio, imagen) {
+        const cantidadInput = document.getElementById(inputId);
+        const cantidad = parseInt(cantidadInput.value);
+    
+    if (cantidad <= 0 || isNaN(cantidad)) {
+        alert('Por favor, ingrese una cantidad válida (mayor a 0)');
+        return;
+    }
+    
+    // Buscar si el producto ya existe en el carrito
+    const productoExistente = carrito.find(item => item.nombre === producto);
+    
+    if (productoExistente) {
+        productoExistente.cantidad += cantidad;
+    } else {
+        carrito.push({
+            nombre: producto,
+            cantidad: cantidad,
+            precio: precio,
+            imagen: imagen
+        });
+    }
+    
+    // Actualizar modal de confirmación
+    actualizarModal();
+    
+    // Actualizar offcanvas del carrito
+    actualizarCarritoOffcanvas();
+    
+    // Limpiar input
+    cantidadInput.value = '';
+    
+    // Mostrar modal de confirmación
+    const modal = new bootstrap.Modal(document.getElementById('carritoModal'));
+    modal.show();
+}
+
+function actualizarModal() {
+    const lista = document.getElementById('listaCarrito');
+    lista.innerHTML = '';
+    
+    let total = 0;
+    
+    carrito.forEach(item => {
+        const li = document.createElement('li');
+        li.className = 'mb-2';
+        li.innerHTML = `<i class="bi bi-asterisk text-success"></i> ${item.nombre} - x${item.cantidad} <span class="text-muted">($${item.precio.toLocaleString()} c/u)</span>`;
+        lista.appendChild(li);
+        
+        total += item.precio * item.cantidad;
+    });
+    
+    document.getElementById('totalCarrito').textContent = total.toLocaleString();
+}
+
+function actualizarCarritoOffcanvas() {
+    const carritoVacio = document.querySelector('#carritoLista .alert');
+    const carritoResumen = document.getElementById('carritoResumen');
+    const productosCarrito = document.getElementById('productosCarrito');
+    const btnVaciar = document.getElementById('btnVaciarCarrito');
+    
+    if (carrito.length === 0) {
+        carritoVacio.classList.remove('d-none');
+        carritoResumen.classList.add('d-none');
+        btnVaciar.classList.add('d-none');
+        return;
+    }
+    
+    carritoVacio.classList.add('d-none');
+    carritoResumen.classList.remove('d-none');
+    btnVaciar.classList.remove('d-none');
+    
+    productosCarrito.innerHTML = '';
+    let total = 0;
+    
+carrito.forEach((item, index) => {
+    const itemDiv = document.createElement('div');
+    itemDiv.innerHTML = `
+      <div class="d-flex align-items-center w-100 gap-3 pt-2 mb-3 ${index > 0 ? 'border-top' : ''}">
+        <img src="${item.imagen}" alt="${item.nombre}" class="rounded" style="width:70px; height:90px; object-fit:cover;">
+        <div class="flex-grow-1">
+          <h6 class="mb-1">${item.nombre}</h6>
+          <span class="text-muted small d-block mb-2">$${item.precio.toLocaleString()} c/u</span>
+          <div class="d-flex align-items-center gap-2">
+            <button class="btn btn-sm btn-outline-secondary" onclick="cambiarCantidad(${index}, -1)">
+              <i class="bi bi-dash"></i>
+            </button>
+            <span class="fw-bold">${item.cantidad}</span>
+            <button class="btn btn-sm btn-outline-secondary" onclick="cambiarCantidad(${index}, 1)">
+              <i class="bi bi-plus"></i>
+            </button>
+          </div>
+        </div>
+        <div class="text-end">
+          <button class="btn btn-sm btn-outline-danger mb-2" onclick="eliminarDelCarrito(${index})">
+            <i class="bi bi-trash"></i>
+          </button>
+          <div class="fw-bold">$${(item.precio * item.cantidad).toLocaleString()}</div>
+        </div>
+      </div>
+    `;
+
+    productosCarrito.appendChild(itemDiv);
+    total += item.precio * item.cantidad;
+});
+    
+    document.getElementById('subtotalCarrito').textContent = total.toLocaleString();
+    document.getElementById('totalCarritoOffcanvas').textContent = total.toLocaleString();
+}
+
+function cambiarCantidad(index, cambio) {
+    carrito[index].cantidad += cambio;
+    
+    if (carrito[index].cantidad <= 0) {
+        carrito.splice(index, 1);
+    }
+    
+    actualizarCarritoOffcanvas();
+}
+
+function eliminarDelCarrito(index) {
+    carrito.splice(index, 1);
+    actualizarCarritoOffcanvas();
+}
+
+function vaciarCarrito() {
+    if (confirm('¿Estás seguro de que querés vaciar el carrito?')) {
+        carrito = [];
+        actualizarCarritoOffcanvas();
+    }
+}
+
+function iniciarCompra() {
+    // Cerrar offcanvas primero
+    const offcanvasElement = document.getElementById('carritoOffcanvas');
+    const offcanvasInstance = bootstrap.Offcanvas.getInstance(offcanvasElement);
+    if (offcanvasInstance) {
+        offcanvasInstance.hide();
+    }
+    
+    // Esperar a que se cierre el offcanvas
+    offcanvasElement.addEventListener('hidden.bs.offcanvas', function mostrarGracias() {
+        // Mostrar modal de agradecimiento
+        alert('¡Muchas gracias por tu compra!');
+        
+        // Vaciar el carrito
+        carrito = [];
+        actualizarCarritoOffcanvas();
+        
+        // Remover el listener
+        offcanvasElement.removeEventListener('hidden.bs.offcanvas', mostrarGracias);
+    });
+}
+</script>
+
+<script>
+document.getElementById('btnIrCarrito').addEventListener('click', function (event) {
+    event.preventDefault();
+
+    // Obtener instancia del modal actualmente visible
+    const modalElement = document.getElementById('carritoModal');
+    const modalInstance = bootstrap.Modal.getInstance(modalElement);
+
+    if (modalInstance) {
+        // Cerramos el modal primero
+        modalInstance.hide();
+
+        // Esperamos a que termine la animación de cierre
+        modalElement.addEventListener('hidden.bs.modal', function abrirOffcanvas() {
+            const offcanvas = new bootstrap.Offcanvas(document.getElementById('carritoOffcanvas'));
+            offcanvas.show();
+
+            // Eliminamos el listener para evitar que se dispare más de una vez
+            modalElement.removeEventListener('hidden.bs.modal', abrirOffcanvas);
+        });
+    } else {
+        // Si por alguna razón no hay modal visible, abrimos el offcanvas directamente
+        const offcanvas = new bootstrap.Offcanvas(document.getElementById('carritoOffcanvas'));
+        offcanvas.show();
+    }
+});
+</script>
+
+
+<!-- Codigo Offcanva para el Carrito -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="carritoOffcanvas" aria-labelledby="carritoOffcanvasLabel">
+    <div class="offcanvas-header border-bottom">
+        <h5 class="offcanvas-title" id="carritoOffcanvasLabel">
+            <i class="bi bi-basket-fill me-2"></i>Carrito de compras
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    
+    <div class="offcanvas-body d-flex flex-column">
+    <!-- Contenido que crece -->
+        <div class="flex-grow-1">
+        <!-- Lista de productos en el carrito -->
+            <div id="carritoLista">
+                <div class="alert alert-info text-center" role="alert">
+                    <i class="bi bi-cart-x fs-1 d-block mb-2"></i>
+                    Tu carrito está vacío
+                </div>
+            </div>
+
+        <!-- Resumen del carrito -->
+            <div id="carritoResumen" class="d-none">
+            <!-- Productos se cargan aquí dinámicamente -->
+            <div id="productosCarrito"></div>
+                <hr>
+
+            <!-- Subtotal y Total -->
+            <div class="d-flex justify-content-between mb-2">
+                <span>Subtotal (sin envío):</span>
+                <span class="fw-bold">$<span id="subtotalCarrito">0</span></span>
+            </div>
+
+            <div class="alert alert-success py-2 mb-3" role="alert">
+                <small>
+                    <i class="bi bi-truck"></i> 
+                    Envío gratis superando los $20.000
+                </small>
+            </div>
+
+            <div class="d-flex justify-content-between mb-3 fs-5">
+                <span class="fw-bold">Total:</span>
+                <span class="fw-bold text-success">$<span id="totalCarritoOffcanvas">0</span></span>
+            </div>
+
+            <!-- Botones de acción (excepto vaciar carrito) -->
+            <div class="d-grid gap-2">
+                <button type="button" class="btn btn-success btn-lg" onclick="iniciarCompra()">
+                    <i class="bi bi-credit-card-fill me-2"></i>Comprar
+                </button>
+                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="offcanvas">
+                    Seguir comprando
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer fijo con el botón de vaciar carrito -->
+            <div class="mt-3 pt-3 border-top d-none" id="btnVaciarCarrito">
+                <button type="button" class="btn btn-outline-danger w-100" onclick="vaciarCarrito()">
+                <i class="bi bi-trash"></i> Vaciar carrito
+            </button>
+        </div>
+    </div>
+</div>
+</body>
+</html>

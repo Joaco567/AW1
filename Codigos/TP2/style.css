@@ -1,0 +1,180 @@
+.footer-home {
+    background: #343A40;
+    margin-top: 3rem;
+    padding: 1rem;
+}
+
+.text-footer {
+    color: #fff;
+    margin: 0;
+    text-align: center;
+}
+
+.price-rezero{
+    text-decoration: line-through;
+}
+
+.card-product {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-product:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.4);
+    transform: translateY(-3px);
+    transition: all 0.5s ease;
+}
+
+
+.card-product .card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-start;
+    padding: 1rem 1rem;
+}
+
+
+.card-product .card-text {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.card-product img {
+    height: 300px;
+    object-fit: contain;
+    width: 100%;
+}
+
+.nav-link.active {
+    color: #fff !important;
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+        
+.nav-link:hover:not(.active) {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+        
+.nav-link {
+    padding: 8px 16px;
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .card-notis .card-header .badge.translate-middle {
+        right: -7px !important;
+        left: auto !important;
+        transform: translateY(-50%) !important;
+    }
+}
+
+.btn-social {
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-social:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.4);
+    transform: translateY(-3px);
+}
+
+.btn-social i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-group-item-warning {
+    color: #ffffff !important;
+}
+
+.list-group-item-warning .text-secondary {
+    color: #f5d144 !important; /* Dorado para las fechas en amarillo */
+}
+
+/* Nuevos ingresos */
+.list-group-item-primary {
+    color: #ffffff !important;
+}
+
+.list-group-item-primary .text-secondary {
+    color: #8bb9dd !important; /* Celeste claro para las fechas en azul */
+}
+
+/* Oscurecer fondo cuando el offcanvas está abierto (Bootstrap ya lo hace automáticamente) */
+.offcanvas-backdrop {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+/* Estilo de los items del carrito */
+.carrito-item {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 1rem 0;
+}
+
+.carrito-item:last-child {
+    border-bottom: none;
+}
+
+.carrito-item-img {
+    width: 60px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.card-home {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-home:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.4);
+    transform: translateY(-3px);
+    transition: all 0.5s ease;
+}
+
+
+.card-home .card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-start;
+    padding: 1rem 1rem;
+}
+
+
+.card-home .card-text {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.card-home img {
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+    
+}
