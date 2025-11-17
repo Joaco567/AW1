@@ -1,6 +1,5 @@
 import { cargarProductosDesdeJSON } from './categoriesComp.js';
 
-// Función para generar una card de producto destacado
 function generarCardProducto(producto) {
     return `
         <div class="col">
@@ -38,9 +37,8 @@ function generarCardProducto(producto) {
     `;
 }
 
-// Función para generar el componente completo de forma asíncrona
 export async function generarProductosDestacados() {
-    // Cargar todos los productos en paralelo
+
     const [productosMangas, productosMerch, productosMenu] = await Promise.all([
         cargarProductosDesdeJSON('mangas'),
         cargarProductosDesdeJSON('merch'),

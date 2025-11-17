@@ -19,7 +19,6 @@ const categories = [
     }
 ]
 
-// Función para cargar productos desde JSON
 export async function cargarProductosDesdeJSON(categoria) {
     try {
         const response = await fetch(`../../data/${categoria}.json`)
@@ -36,12 +35,10 @@ export async function cargarProductosDesdeJSON(categoria) {
     }
 }
 
-// Variables que se llenarán dinámicamente (para compatibilidad con featuredproducts)
 export let productosMangas = []
 export let productosMerch = []
 export let productosMenu = []
 
-// Función para inicializar todos los productos (se llama al inicio)
 export async function inicializarProductos() {
     productosMangas = await cargarProductosDesdeJSON('mangas')
     productosMerch = await cargarProductosDesdeJSON('merch')
@@ -54,7 +51,6 @@ export async function inicializarProductos() {
     })
 }
 
-// Mapa de productos por página
 const productosPorCategoria = {
     'Mangas': 'mangas',
     'Merchandising': 'merch',
@@ -85,7 +81,8 @@ export const categoriesComponent = `
 </div>
 `
 
-/* Generador de productos para páginas de categorías */
+/* Home: Categorias de Productos Destacados */
+
 export async function generarProductos(nombrePagina) {
     const categoriaArchivo = productosPorCategoria[nombrePagina]
     
@@ -93,7 +90,6 @@ export async function generarProductos(nombrePagina) {
         return '<p class="text-center text-muted my-5">Categoría no encontrada.</p>'
     }
     
-    // Cargar productos desde JSON
     const productos = await cargarProductosDesdeJSON(categoriaArchivo)
     
     if (!productos || productos.length === 0) {
