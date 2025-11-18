@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Lata Gaseosa Fanta de Chucky Sabor Chucky Punch 350ml",
+        "description": "Edición limitada de terror. El sabor que te hará gritar... ¡de lo delicioso que está!",
+        "image": "https://www.coca-cola.com/content/dam/onexp/br/pt/offerings/fanta-halloween-25/offering/prelaunch/productochuckydesk.png",
+        "precio": 3250,
+        "descuento": false,
+        "id": "menu-1"
+    },
+    {
+        "title": "Lata Gaseosa Fanta de Freddy Fazbear Sabor Naranja 350ml",
+        "description": "Five nights, un sabor. La gaseosa oficial de Freddy's Pizza. Edición coleccionable.",
+        "image": "https://www.coca-cola.com/content/dam/onexp/br/pt/offerings/fanta-halloween-25/offering/prelaunch/naranjad.png",
+        "precio": 3250,
+        "descuento": false,
+        "id": "menu-2"
+    },
+    {
+        "title": "Galletas Pokémon Sabor Chocolate",
+        "description": "Atrápalos a todos... y comételos. Galletas con diseños de tus Pokémon favoritos.",
+        "image": "https://acdn-us.mitiendanube.com/stores/001/989/991/products/pokemon_galletitas_rellenas_core-a87ee17305c708a9df17570179235757-1024-1024.webp",
+        "precio": 4470,
+        "descuento": false,
+        "id": "menu-3"
+    },
+    {
+        "title": "Pocky Sabor Frambuesa y Arandano",
+        "description": "El snack japonés que conquista el mundo. Palitos crocantes cubiertos con crema de frutas del bosque.",
+        "image": "https://acdn-us.mitiendanube.com/stores/001/989/991/products/ara-cutting-600x600-jpg-removebg-preview-46dba60e577a20e26e17236673784999-1024-1024.webp",
+        "precio": 5630,
+        "descuento": false,
+        "id": "menu-4"
+    },
+    {
+        "title": "Ramen / Fideos Instantáneos Pack Buldak Sabor Pollo Super Picante 140g",
+        "description": "El desafío picante de Corea. ¿Te animás a probar los fideos más infernales del mundo? 🔥",
+        "image": "https://acdn-us.mitiendanube.com/stores/001/989/991/products/rojo-a15365563c57950756172417223-6f7bddf9a2348e674917256605314463-1024-1024.webp",
+        "precio": 5120,
+        "descuento": false,
+        "id": "menu-5"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Llavero Peluche Marvel Spider-Man",
+        "description": "El trepa muros favorito de todos en formato peluche. Perfecto para llevar a tu héroe a todos lados.",
+        "image": "https://th.bing.com/th/id/R.6a6f0e0bf31eb8f259e45635811f895a?rik=w1SwcX9M%2f5KOIQ&pid=ImgRaw&r=0",
+        "precio": 5299,
+        "descuento": false,
+        "id": "merch-1"
+    },
+    {
+        "title": "Taza / Tazón Lilo & Stitch - Stitch",
+        "description": "Ohana significa familia. Disfrutá tu bebida favorita con el alien más adorable del universo.",
+        "image": "https://acdn-us.mitiendanube.com/stores/001/989/991/products/76ab90c8-49ae-40d6-a387-f27ca383dd9f-removebg-preview-fd15378d793df7dfa517398235153379-1024-1024.webp",
+        "precio": 11999,
+        "descuento": false,
+        "id": "merch-2"
+    },
+    {
+        "title": "Cuadro Diorama Super Mario Bros",
+        "description": "Revive la nostalgia de los 8 bits. Una obra de arte pixelada para decorar tu espacio gamer.",
+        "image": "https://acdn-us.mitiendanube.com/stores/001/989/991/products/mario-bros-1-2-y-3-1-62ee97ddb97a7eccb217459581942065-1024-1024.webp",
+        "precio": 14999,
+        "descuento": false,
+        "id": "merch-3"
+    }
+]
