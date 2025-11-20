@@ -1,0 +1,35 @@
+[
+    {
+        "title": "Re:Zero - Empezar de cero en un mundo diferente Vol. 1",
+        "description": "Morir una y otra vez para salvar a quienes amas. Subaru enfrenta un destino cruel en un mundo de magia.",
+        "image": "https://cdnx.jumpseller.com/honnoto-store/image/18079011/re_zero_1.jpg?1661550447",
+        "precio": 3999,
+        "precioOriginal": 7999,
+        "descuento": true,
+        "id": "manga-1"
+    },
+    {
+        "title": "Jojo's Bizarre Adventure P.1 Vol.1",
+        "description": "La legendaria saga de los Joestar comienza. Acompañá a Jonathan en su épica batalla contra Dio Brando.",
+        "image": "https://th.bing.com/th/id/R.fc09c2518bbb9fd87d38350a4eb75699?rik=DRianP8%2fQfM1%2fQ&riu=http%3a%2f%2fomegacenter.es%2fblog%2fwp-content%2fuploads%2f2017%2f06%2fjojophantomblood01definitivo.jpg&ehk=YRBaAgoWAAHfWvnrqvGH0Zp7K5yJ4t6CGRLvqZaNjqw%3d&risl=&pid=ImgRaw&r=0",
+        "precio": 7999,
+        "descuento": false,
+        "id": "manga-2"
+    },
+    {
+        "title": "Dr. Stone Vol. 1",
+        "description": "La humanidad petrificada por milenios. Senku despierta para reconstruir la civilización desde cero con ciencia.",
+        "image": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781974702619/dr-stone-vol-1-9781974702619_hr.jpg",
+        "precio": 8500,
+        "descuento": false,
+        "id": "manga-3"
+    },
+    {
+        "title": "Neon Genesis Evangelion Vol. 1",
+        "description": "Shinji Ikari debe pilotar un Eva para salvar a la humanidad de misteriosos seres llamados Ángeles.",
+        "image": "https://th.bing.com/th/id/R.618279f0a8ec04603b4efebdf6c1e3c9?rik=kxJbklIaai1oSg&riu=http%3a%2f%2facdn.mitiendanube.com%2fstores%2f002%2f087%2f383%2fproducts%2fevangeliondeluxe_01-5685dab048cb0db66616989614055403-640-0.jpg&ehk=s6tVdU8qA5rCb8x17pUTSpHvSY4KR4U9FLmeTC3%2fnk0%3d&risl=&pid=ImgRaw&r=0",
+        "precio": 8500,
+        "descuento": false,
+        "id": "manga-4"
+    }
+]
